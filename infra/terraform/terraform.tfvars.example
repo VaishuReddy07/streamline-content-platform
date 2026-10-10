@@ -1,0 +1,8 @@
+aws_region = "eu-west-3"
+
+# Obtain these from the existing EKS cluster and IAM OIDC provider.
+eks_oidc_provider_arn       = "arn:aws:iam::123456789012:oidc-provider/oidc.eks.eu-west-3.amazonaws.com/id/REPLACE_ME"
+eks_oidc_issuer_hostpath    = "oidc.eks.eu-west-3.amazonaws.com/id/REPLACE_ME"
+kubernetes_namespace        = "streamline"
+api_service_account         = "streamline-api"
+worker_service_account      = "streamline-worker"
